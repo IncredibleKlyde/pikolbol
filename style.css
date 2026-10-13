@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+body {
+    margin: 0;
+    background: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 12px;
+    z-index: 1000;
+    width: 84%;
+    height: 42px;
+    margin: 18px auto 0;
+    padding: 0 18px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 18px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: green;
+}
+
+.page-content {
+    width: 68%;
+    max-width: 850px;
+    margin: 38px auto 60px;
+    padding-bottom: 30px;
+}
+
+
+.panels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.panel {
+    width: 96%;
+    height: 560px;
+    border: 4px solid black;
+    display: grid;
+    grid-template-rows: 40% 20% 40%;
+    overflow: hidden;
+}
+
+.top-pair,
+.bottom-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Boxes (each one is separate, same content) */
+.box-1 {
+    background: green;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.box-2 {
+    background: green;
+    border-bottom: 2px solid black;
+}
+
+.box-3 {
+    background: green;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.box-4 {
+    background: green;
+    border-bottom: 2px solid black;
+}
+
+.box-5 {
+    background: green;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.box-6 {
+    background: green;
+    border-bottom: 2px solid black;
+}
+
+.box-7 {
+    background: green;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.box-8 {
+    background: green;
+    border-bottom: 2px solid black;
+}
+
+.blue-box {
+    background: blue;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+/* Intro */
+.intro {
+    text-align: center;
+    margin-top: 34px;
+    min-height: 300px;
+}
+
+.intro h1 {
+    margin: 0 0 14px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+    color: black;
+}
+
+.intro p {
+    margin: 0 auto 17px;
+    color: black;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.learn-more {
+    display: inline-block;
+    padding: 10px 24px;
+    background: yellow;
+    color: black;
+    border-radius: 22px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.learn-more:hover {
+    background: rgb(230, 173, 16);
+}
+
+/* Page two */
+.page-two {
+    min-height: 100vh;
+    margin-top: 50px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.page-two h1 {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: black;
+}

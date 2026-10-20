@@ -12,12 +12,21 @@
     <nav class="navbar">
         <div class="brand">AAA</div>
         <div class="nav-links">
-            <a href="#page1">Page 1</a>
-            <a href="#page2">Page 2</a>
+          
+            <!-- NEW links -->
+            <a href="#page1">Home</a>
+            <a href="#page2">About</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#page1" class="reserve-btn">RESERVE A COURT</a>
         </div>
     </nav>
 
     <main class="page-content">
+
+        <!-- NEW: Logo banner -->
+        <div class="logo-banner">
+            <img src="pickle-logo.png" alt="PickleBull logo">
+        </div>
 
         <section class="panels" id="page1">
 
@@ -59,6 +68,142 @@
         </section>
 
         <section class="page-two" id="page2">
+
+            <!-- NEW: About content (bordered box) -->
+            <div class="about">
+
+                <!-- Decorations -->
+                <div class="big-circle"></div>
+                <div class="ball ball-1"></div>
+                <div class="ball ball-2"></div>
+
+                <div class="about-inner">
+
+                    <p class="about-label">About PICKLEBULL</p>
+
+                    <h3>
+                        Good games start with<br>
+                        <span>a place to play.</span>
+                    </h3>
+
+                    <p class="about-text">
+                        PICKLEBULL is about bringing people together on the court.
+                        Whether you are practicing your skills or playing with
+                        friends, there is always a reason to make time for a game.
+                    </p>
+                    <p class="about-text about-highlight">
+                        Bring your team, enjoy the competition, and make every
+                        game a chance to connect.
+                    </p>
+
+                    <!-- Bar -->
+                    <div class="about-pill">
+                        <div class="pill-inner">
+                            <h4>More than a game</h4>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Three round items -->
+                    <div class="circles">
+                        <div class="circle-item">
+                            <h5>Play together.</h5>
+                            <p>Share the court and enjoy time with your team.</p>
+                        </div>
+                        <div class="circle-item">
+                            <h5>Keep improving.</h5>
+                            <p>Make room for practice, learning, and a new challenge.</p>
+                        </div>
+                        <div class="circle-item">
+                            <h5>Respect the game.</h5>
+                            <p>Play fair and support the people around you.</p>
+                        </div>
+                    </div>
+
+                    <a href="#page1" class="back-link">Back to home</a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- NEW: Contact section (stacked layout) -->
+        <section class="contact" id="contact">
+
+            <!-- Centered heading -->
+            <div class="contact-head">
+                <h2>Contact us</h2>
+                <p class="contact-tagline">A question about the court? Let's talk.</p>
+                <h3>Your next game starts here.</h3>
+                <p class="contact-lead">
+                    Ask about reserving a court, planning a game with
+                    friends, or getting to know PICKLEBULL  .
+                </p>
+            </div>
+
+            <!-- Three info cards in a row -->
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <h4>Email</h4>
+                    <p>klyde@gmail.com</p>
+                    <small>Placeholder</small>
+                </div>
+                <div class="contact-card">
+                    <h4>Phone</h4>
+                    <p>1289736198</p>
+                    <small>Placeholder</small>
+                </div>
+                <div class="contact-card">
+                    <h4>Find the court</h4>
+                    <p>Add your court address</p>
+                    <small>Placeholder</small>
+                </div>
+            </div>
+
+            <!-- Wide form -->
+            <form class="contact-form">
+
+                <div class="form-top">
+                    <h3>Leave a message</h3>
+                    <p class="form-note">Form preview: sending is unavailable until a contact service is connected.</p>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Your name (required)</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address (required)</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="topic">What can we help with?</label>
+                        <select id="topic">
+                            <option>General question</option>
+                            <option>Reserve a court</option>
+                            <option>Group or team game</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your message (required)</label>
+                    <textarea id="message" rows="4"></textarea>
+                </div>
+
+                <div class="form-bottom">
+                    <button type="button" class="send-btn">Send message</button>
+                    <p class="contact-note">
+                        Planning a visit? Include your preferred date, time, and
+                        number of players in your message. A reservation is
+                        only confirmed once the team replies.
+                    </p>
+                </div>
+
+            </form>
+
         </section>
 
     </main>
